@@ -1,0 +1,42 @@
+<div class="list">
+  <div class="search">
+    <h2>Search:</h2>
+    <input placeholder="Type an Ingredient or cocktail name" ng-model="search" type="text" name="name" value="">
+  </div>
+  <div class="add">
+    <a href="" ng-click="addDrink()"> Add a New Drink</a>
+  </div>
+  <div class="drinks">
+    <div class="item ng-scope" ng-class="{'editing-item': editing, 'edited': drink.edited, 'completed': drink.completed}" ng-repeat="drink in drinks.drinks | filter:search:false | orderBy: 'completed'" ng-init="drink.completed = false">
+        <input ng-model="drink.completed" type="checkbox">
+        <span ng-click="drink.completed = !drink.completed"></span>
+        <label ng-click="editing = true;" ng-hide="editing">{{drink.strDrink}}</label>
+        <input ng-blur="editing = false;" ng-show="editing" ng-model="drink.strDrink" type="text" class="editing-label" value="">
+        <div class="ingredients">
+          <h4>Ingredients:</h4>
+          <ul>
+            <input ng-show="editing" ng-model="drink.strIngredient1" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient1}}</li>
+            <input ng-show="editing" ng-model="drink.strIngredient2" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient2}}</li>
+            <input ng-show="editing" ng-model="drink.strIngredient3" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient3}}</li>
+            <input ng-show="editing" ng-model="drink.strIngredient4" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient4}}</li>
+            <input ng-show="editing" ng-model="drink.strIngredient5" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient5}}</li>
+            <input ng-show="editing" ng-model="drink.strIngredient6" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient6}}</li>
+            <input ng-show="editing" ng-model="drink.strIngredient7" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient7}}</li>
+            <input ng-show="editing" ng-model="drink.strIngredient8" type="text" class="editing-label" value="">
+            <li ng-hide="editing">{{drink.strIngredient8}}</li>
+          </ul>
+        </div>
+        <div class="actions">
+            <a href="" ng-click=" editing = !editing">Edit</a>
+            <a href="" ng-click="saveDrinks(drink)">Save</a>
+        </div>
+    </div>
+</div>
+</div>

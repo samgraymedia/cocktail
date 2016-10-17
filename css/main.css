@@ -1,0 +1,79 @@
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+.list{
+  margin: 10px;
+}
+.list .search{
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+}
+.list .search input{
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.list .add{
+  display: none;
+}
+.list .drinks{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+
+}
+.list .drinks .item{
+  margin: 10px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 26.5%;
+  border-radius: 10px;
+  position: relative;
+}
+.list .drinks a{
+  color: rgb(89, 115, 139);
+  padding-top: 10px;
+
+}
+.list .actions{
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+ul{
+  margin-left: 40px;
+}
+ul input{
+  display: block;
+}
+
+.ingredients ul li:empty{
+    display: none;
+  }
+.completed{
+  text-decoration: line-through;
+  color: #7d7d7d;
+}

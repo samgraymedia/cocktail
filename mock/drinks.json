@@ -1,0 +1,103 @@
+{
+  "drinks":
+  [
+
+{
+"idDrink": "1",
+"strDrink": "Cosmopolitan",
+"strIngredient1": "Cranberry Juice",
+"strIngredient2":"Lime Juice",
+"strIngredient3":"Cointreau (Liqueur, orange)",
+"strIngredient4":"Vodka",
+"strIngredient5":"lemon",
+"strMeasurement1": "1 oz (3 cl)",
+"strMeasurement2": "0.5 oz (1.5 cl)",
+"strMeasurement3": "0.5 oz (1.5 cl)",
+"strMeasurement4": "1.25 oz (3.75 cl)"
+},
+{
+"idDrink": "2",
+"strDrink": "Long Island Iced Tea",
+"strIngredient1": "Gin",
+"strIngredient2":"Vodka",
+"strIngredient3":"Syrup, Gomme",
+"strIngredient4":"Tequila",
+"strIngredient5":"Cola",
+"strIngredient6":"Lemon Juice",
+"strIngredient7":"Cointreau (Liqueur, orange)",
+"strIngredient8":"Rum, white/light",
+"strMeasurement1": "1 oz (3 cl)",
+"strMeasurement2": "0.5 oz (1.5 cl)",
+"strMeasurement3": "1 oz (3 cl)",
+"strMeasurement4": "0.5 oz (1.5 cl)",
+"strMeasurement5": "1 dash (0.09 cl/0.03 oz)",
+"strMeasurement6": "1 oz (3 cl)",
+"strMeasurement7": "0.5 oz (1.5 cl)",
+"strMeasurement8": "0.5 oz (1.5 cl)"
+
+},
+{
+"idDrink": "3",
+"strDrink": "Mojito",
+"strIngredient1": "Lime Juice",
+"strIngredient2":"Rum, white/light",
+"strIngredient3":"Sugar Syrup",
+"strIngredient4":"Soda Water",
+"strMeasurement1": "1 oz (3 cl)",
+"strMeasurement2": "2 oz (6 cl)",
+"strMeasurement3": "0.75 oz (2.25 cl)",
+"strMeasurement4": "3 oz (9 cl)"
+
+},
+{
+"idDrink": "4",
+"strDrink": "Daiquiri",
+"strIngredient1": "white rum",
+"strIngredient2":"fresh lime juice",
+"strIngredient3":"simple syrup (1:1)",
+"strMeasurement1": "2 oz",
+"strMeasurement2": "1 oz",
+"strMeasurement3": "1/2 oz"
+
+},
+{
+"idDrink": "5",
+"strDrink": "Gin and Tonic",
+"strIngredient1": "gin",
+"strIngredient2":"Tonic Water",
+"strIngredient3":"Lime Juice",
+"strIngredient4":"Lime",
+"strMeasurement1": "25ml",
+"strMeasurement2": "125ml",
+"strMeasurement3": "10ml"
+
+},
+{
+"idDrink": "6",
+"strDrink": "Piña Colada",
+"strIngredient1": "Spiced Rum",
+"strIngredient2":"Coconut Cream",
+"strIngredient3":"Pineapple Chunks",
+"strIngredient4":"Cherry",
+"strMeasurement1": "50ml",
+"strMeasurement2": "25ml",
+"strMeasurement3": "3piece(s)",
+"strMeasurement4": "1piece(s)"
+
+},
+{
+"idDrink": "7",
+"strDrink": "Blue Lagoon",
+"strIngredient1": "Vodka",
+"strIngredient2":"Blue Curaçao Liqueur",
+"strIngredient3":"Lemonade",
+"strIngredient4":"Lemon",
+"strMeasurement1": "50ml",
+"strMeasurement2": "25ml",
+"strMeasurement3": "150ml",
+"strMeasurement4": "1slice(s)"
+
+}
+
+]
+}
