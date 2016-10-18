@@ -2,7 +2,7 @@
 angular.module("drinkListApp")
 .service('dataService', function($http){
   this.getDrinks = function(callback){
-    $http.get('http://www.thecocktaildb.com/api/json/v1/1/random.php')
+    $http.get('mock/drinks.json')
       .then(callback);
 };
 this.deleteDrink = function(drink) {

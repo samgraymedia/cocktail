@@ -1,1 +1,1 @@
-$(".hide:empty").hide();
+$(".none").css("display","none");
